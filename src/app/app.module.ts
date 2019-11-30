@@ -10,7 +10,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
-
+import {AccordionModule} from 'primeng/accordion';  
+import {MenuItem} from 'primeng/api';   
 
 
 
@@ -30,6 +31,7 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    AccordionModule,
     ReactiveFormsModule ,
   ],
   providers: [],
