@@ -1,0 +1,72 @@
+.row_form{
+    justify-content: center;
+    margin-right: 160px;
+    margin-bottom: 50px;
+    margin-top: 21px;
+    
+    
+}
+.group{
+background-color: #EDEDED;
+}
+.regis{
+    width: 100%;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    margin-top: 29px;
+}
+.content{
+    background: linear-gradient(to right top, #22247c, #0063A6, #007EBF, #00A0D7, #009DD5) !important;  
+    height: 100vh;
+
+}
+.first{
+    font-size: 13px;
+        color: #87857E;
+        align-items: center;
+        margin-top: 10px;
+       
+}
+.last{
+    font-size: 13px;
+        color: #87857E;
+}
+.add{
+    font-size: 13px;
+    color: #87857E;
+}
+.mobno{
+    font-size: 13px;
+    color: #87857E;  
+}
+.desgn{
+    font-size: 13px;
+    color: #87857E;    
+}
+.date{
+    font-size: 13px;
+    color: #87857E;    
+}
+.link{
+    color:#07070E;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.grp_form{
+    padding: 10px 30px 40px 30px;
+    width: 150%;
+}
+
+.heading{
+    margin-right: 41px;
+    justify-content: center;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.prof{
+    color: #FFFFFF;
+   
+    font-size: 27px;
+    justify-content: center;
+}

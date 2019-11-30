@@ -1,0 +1,49 @@
+<div class="frame">
+  <div class="row box">
+    <div class="col-sm-8 col-lg-8 col-md-8  col-12 logo text-secondary">
+      <div class="row">
+        <div class="col-sm-1 col-lg-1 col-md-1"></div>
+        <div class="col-sm-6 col-lg-6 col-md-6">
+           <div class="main">
+            <div class="welcome"> Welcome to </div>
+            <div class=" beauto ">BeautoSystem</div>
+            <div class="director">directed by Mr.Pramod Palla</div>
+          </div>
+        </div>
+        <div class="col-sm-5 col-lg-5 col-md-5">
+            <img src="assets/133729618.png" class="employee_logo">
+        </div>
+      </div>      
+         </div>
+
+    <div class="col-sm-4 col-lg-4 col-md-4 col-12 logo_side">
+      <div class="row float-right logo_beauto">       
+          <img src="assets/beauto.png" class="logo_img">
+      </div>
+
+      <div class="row"> 
+          <p class="text-color login" (click)="Submit()">LOGIN</p>
+          <!-- <p class="text-color sign_up float-left">SIGN Up</p>  -->
+        <form class="group" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="form-group ">
+            <input type="username" class="form-control" formControlName="user_name" placeholder="Enter username"
+              name="user_name">
+          </div>
+          <div class="form-group ">
+            <input type="password" class="form-control" formControlName="password" placeholder="Enter password"
+              name="password">
+          </div>
+          <button type="submit" class="btn btn-primary button">Submit</button>
+          <div class="sign_btn">
+              <label (click)="SignUp()">Sign Up</label>
+            </div>
+          <div class="checkbox check ">
+            <label><input type="checkbox" value="">Remember me</label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <a class="link" href="https://www.beautosys.com"> https://www.beautosys.com/ </a>
+ 
+</div>

@@ -1,0 +1,129 @@
+.logo{
+    background-color: #009AD4;
+    background: linear-gradient(to right top, #22247c, #0063A6, #007EBF, #00A0D7, #009DD5) !important;
+    padding: 50px 50px 50px 50px;
+     text-align: center;
+     font-size: 400%;
+
+
+}
+.text-white{
+    margin-top:40px;
+    font-size: 60px;
+    
+}
+.text-muted{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+
+.text-body{
+font-size: 30px;
+margin-top: 250px;
+}
+
+.sign_up{
+    margin-top: 80px;
+    color: #415A9C;
+    font-weight: bold;
+}
+
+.frame{
+    background-color: #009AD4;
+    padding: 70px 100px 70px 100px;
+    height: 100vh;
+    background: linear-gradient(to right top, #22247c, #0063A6, #007EBF, #00A0D7, #009DD5) !important;
+   
+    
+}
+.box{
+    height: 100%;
+    border: 1px solid #2727b7;
+    box-shadow: 12px 15px 55px #0f1b4a;
+    
+
+}
+.welcome{
+    font-size: 52px;
+    color:#5196C5;
+    margin-right: 100px;
+    
+
+}
+.beauto{
+    color:#DBE4EA;
+    margin-right: 100px;
+}
+
+.director{
+    font-size: 15px;
+    margin-bottom: 100px;
+    color:#B5D6E8 ;
+    margin-right: 170px;
+}
+.group{
+    margin-top: 40px;
+}
+
+.check{
+    text-align: right;
+    margin-top: -32px;
+}
+.sign_btn{
+    text-align: left;
+    margin-top: 30px;
+    color: #415A9C;
+    font-weight: bold;
+}
+.button{
+    text-align: center;
+    width: 350px;
+    background-color: #2D73F9;
+}
+
+.login{
+    margin-top: 80px;
+    color: #415A9C;
+    font-weight: bold;
+    
+
+}
+.logo_beauto{
+    margin-top: -50px;
+
+}
+
+.employee_logo{
+    height: 100%;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 37px;
+}
+.logo_img{
+    width: 100px;
+}
+.logo_side{
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+    text-align: left;
+  
+}
+.emp{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.main{
+    margin-top: 87px;
+
+}
+
+.link{
+    color: #ece5e5;
+    border-bottom: 1px solid white;
+    font-size: x-small;
+}
+
+.link_name{
+    margin-top: 390px;
+}
