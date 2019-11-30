@@ -7,17 +7,20 @@ import { FormGroup, FormControl } from '@angular/forms';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-  loginForm = new FormGroup({
-    First_name: new FormControl(''),
-    Last_name: new FormControl(''),
-    Address: new FormControl(''),
-    MobileNo: new FormControl(''),
-    Designation: new FormControl(''),
-    DateOfJoining: new FormControl(''),
+  registerForm = new FormGroup({
+    firstName: new FormControl(''),
+    lastName: new FormControl(''),
+    address: new FormControl(''),
+    emailId:new FormControl(''),
+    skills: new FormControl(''),
+    designation: new FormControl(''),
+    dateOfJoining: new FormControl(''),
   })
   constructor() { }
   onSubmit(){
-    console.log(this.loginForm.value);
+    console.log(this.registerForm.value);
+    // this.TeamService.Signup(this.registerForm.value).subscribe(res => {
+    // });
   }
   ngOnInit() {
   }
