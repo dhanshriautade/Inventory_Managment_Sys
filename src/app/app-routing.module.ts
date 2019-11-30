@@ -8,6 +8,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HomeComponent } from './components/home/home.component';
 import { TeamComponent } from './components/team/team.component';
 import { DeviceComponent } from './components/device/device.component';
+import { MaintanceComponent } from './components/maintance/maintance.component';
 
 const routes: Routes = [
 {path:'' , component:LoginComponent},
@@ -20,9 +21,9 @@ children:[
 {path:'dashboard', component:DashboardComponent},
 {path:'sidebar', component:SidebarComponent},
 {path:'header', component:HeaderComponent},
-// {path:'team' ,component:TeamComponent},
-// {path:'team' ,component:DeviceComponent},
-// {path:'team' ,component:TeamComponent},
+ {path:'team' ,component:TeamComponent},
+ {path:'device' ,component:DeviceComponent},
+ {path:'maintance' ,component:MaintanceComponent},
 ]
 }
 ]

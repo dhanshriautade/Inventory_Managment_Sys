@@ -6,9 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./team.component.css']
 })
 export class TeamComponent implements OnInit {
+  [x: string]: any;
+
 
   constructor() { }
-
+  SignUp(){
+    this.router.navigate(['/team']);
+  }
   ngOnInit() {
   }
 

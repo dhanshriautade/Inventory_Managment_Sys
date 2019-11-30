@@ -2,25 +2,25 @@
         <img src="assets/beauto.png" class="logo">
         <nav class="sidebar-nav">
                 <ul id="sidebarnav" class="p-t-30">
-                        <li class="sidebar-item">
+                        <li class="sidebar-item" (click)="dashboard()">
                                 <a class="" aria-expanded="false">
                                         <i class="pi pi-home list_icon"></i>
                                         &nbsp;&nbsp;&nbsp;
                                         Dashboard</a></li>
 
-                        <li class="sidebar-item">
+                        <li class="sidebar-item" (click)="team()" >
                                 <a class="user" aria-expanded="false">
                                         <i class="pi pi-users list_icon_user"></i>
                                         &nbsp;&nbsp;&nbsp;
                                         Team</a></li>
 
-                        <li class="sidebar-item">
+                        <li class="sidebar-item" (click)="device()" >
                                 <a class="device_info" aria-expanded="false">
                                         <i class="pi pi-desktop list_icon device"></i>
                                         &nbsp;&nbsp;&nbsp;
                                         Device</a></li>
 
-                        <li class="sidebar-item">
+                        <li class="sidebar-item" (click)="maintance()">
                                 <a class="maintance_info" aria-expanded="false">
                                         <i class="pi pi-refresh list_icon maintance"></i>
                                         &nbsp;&nbsp;&nbsp;
