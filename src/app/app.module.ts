@@ -16,6 +16,7 @@ import { TeamComponent } from './components/team/team.component';
 import { DeviceComponent } from './components/device/device.component';
 import { MaintanceComponent } from './components/maintance/maintance.component';   
 
+import {ChartModule} from 'primeng/chart';
 
 
 @NgModule({
@@ -40,6 +41,7 @@ import { MaintanceComponent } from './components/maintance/maintance.component';
     FormsModule,
     AccordionModule,
     ReactiveFormsModule ,
+    ChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
