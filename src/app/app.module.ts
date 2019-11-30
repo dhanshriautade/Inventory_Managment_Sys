@@ -11,7 +11,10 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import {AccordionModule} from 'primeng/accordion';  
-import {MenuItem} from 'primeng/api';   
+import {MenuItem} from 'primeng/api';
+import { TeamComponent } from './components/team/team.component';
+import { DeviceComponent } from './components/device/device.component';
+import { MaintanceComponent } from './components/maintance/maintance.component';   
 
 
 
@@ -24,6 +27,10 @@ import {MenuItem} from 'primeng/api';
     SidebarComponent,
     HeaderComponent,
     HomeComponent,
+    TeamComponent,
+    DeviceComponent,
+    MaintanceComponent,
+    
    
   
   ],
