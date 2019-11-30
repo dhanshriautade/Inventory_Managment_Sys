@@ -1,0 +1,21 @@
+.name{
+    color: white;
+    font-weight: bold;
+    margin-top: 27px;
+   
+}
+
+.info{
+    padding-left: 20px;
+}
+.profile{
+    text-align: end;
+    color: white;
+    font-weight: bold;
+    margin-top: 27px;
+}
+
+.profileImage{
+    width: 45px;
+    border-radius: 25px;
+}

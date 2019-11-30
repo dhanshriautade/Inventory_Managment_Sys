@@ -7,3 +7,64 @@
 .sidebar{
     text-align: center;
 }
+
+.sidebar-nav ul li a{
+    /* padding-left: 20px; */
+    
+}
+
+nav{
+    margin-top: 21px;
+    margin-right: 57px;
+}
+ul{
+    list-style: none;
+}
+
+.sidebar-item {
+    height: 44px;
+}
+
+.list_icon{
+    
+    position: relative;
+    top: 2px;
+    color: #5e72e4!important;
+}
+
+.list_icon_user{
+    position: relative;
+    top: 2px;
+    color: #ffd600!important
+}
+
+li{
+    margin-bottom: 15px;
+}
+.user{
+    margin-right: 40px;
+}
+
+a{
+    color:#808080e0;
+}
+
+.maintance_info{
+    margin-right: 8px;
+}
+
+.maintance{
+    position: relative;
+    top: 2px;
+    color: #11cdef!important;
+}
+
+.device_info{
+    margin-right: 35px;
+}
+
+.device{
+    position: relative;
+    top: 2px;
+    color: #f5365c!important;
+}

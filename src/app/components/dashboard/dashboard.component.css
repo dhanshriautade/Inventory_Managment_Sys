@@ -1,0 +1,40 @@
+.gradient1 {
+    background: linear-gradient(to right top, #ff882c, #ff5c5c, #ff3894, #e344d0, #7f66ff) !important;
+  }
+  .gradient2 {
+    background-image: linear-gradient(to right top, #2c64ff, #845bfa, #b750ef, #df41e1, #ff31cf) !important;
+  }
+  .gradient3 {
+    background-image: linear-gradient(to right top, #2cff64, #96eb2d, #c7d500, #e9bd00, #ffa42d) !important;
+  }
+  .gradient4 {
+    background-image: linear-gradient(to right top, #2cff56, #00f3b6, #00dff9, #00c4ff, #2da3ff) !important;
+  }
+  .gradient5 {
+    background-image: linear-gradient(to right top, #f50b91, #ff436b, #ff7c46, #ffb227, #ffe32d) !important;
+  }
+  .gradient6 {
+    background-image: linear-gradient(to right top, #a00bf5, #0091ff, #00c6ff, #00e8d6, #2dff73) !important;
+  }
+
+  .info-card {
+    padding: 21px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    font-size: smaller;
+  }
+
+  .horizontal-list{
+    display: flex;
+    overflow-x: auto;
+}
+.count{
+    text-align: center
+}
+
+
+.container{
+    padding-top: 32px;
+}
