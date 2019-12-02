@@ -1,0 +1,37 @@
+.btn {
+    width: 200px;
+    height: 50px;
+}
+
+.header {
+    background: linear-gradient(87deg, #0063A6, #007EBF, #00A0D7)!important;
+    color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(130, 122, 122, 0.45)
+}
+
+.table-dark {
+    color: black;
+    background-color: #f0eeee;
+    border: 1px solid gray;
+}
+.tab{
+    border-right: 1px solid;
+}
+
+.name {
+    height: 600px;
+     margin-top: 40px; 
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.btn{
+    padding-top: 15px
+}
+.maint{
+    margin-left: 924px;
+    margin-top: 20px;
+}

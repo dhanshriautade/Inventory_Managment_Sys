@@ -68,7 +68,7 @@ export class TeamComponent implements OnInit {
         "firstName": "Amit",
         "lastName": "Yadav",
         "email_id": "amit.yadav@beautosys.com",
-        "device_count": ""
+        "device_count": "2"
 
       },
       {

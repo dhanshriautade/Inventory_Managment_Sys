@@ -1,1 +1,74 @@
-<p>device works!</p>
+<p-dialog header="Device Details" [(visible)]="display" [modal]="true" [responsive]="true"
+    [style]="{width: '650px', height:'300px', minWidth: '200px'}" [minY]="70" [maximizable]="true" [baseZIndex]="10000">
+
+</p-dialog>
+
+<p-dialog header="Add Device" [(visible)]="useradd" [modal]="true" [responsive]="true"
+    [style]="{width: '350px',  height:' 600px',minWidth: '200px'}" [minY]="70" [maximizable]="true" [baseZIndex]="10000">
+    <div class="col-sm-12 col-lg-12 col-md-12">
+
+        <div class="row row_form tab ">
+
+            <div>
+                <form class="group grp_form ">
+                    <div>
+                        <label class="first">Device name</label>
+                        <input type="text" class="form-control text-centre" placeholder="" name="deviceName">
+                    </div>
+                    <div>
+                        <label class="last">Details</label>
+                        <input type="text " class="form-control text-centre" placeholder="" name="details">
+                    </div>
+                    <div>
+                        <label class="add">Purchase Date</label>
+                        <input type="text" class="form-control text-centre" placeholder="" name="purchaseDate">
+                    </div>
+                    <div>
+                        <label class="mobno">Price</label>
+                        <input type="text" class="form-control text-centre" placeholder="" name="">
+                    </div>
+
+
+                    <div class="form group  ">
+                        <button type="submit" class="btn btn-primary regis ">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</p-dialog>
+
+<!-- <button class="btn-primary btn" type="button" (click)="showDialog()" pButton icon="pi pi-info-circle" label="Show"> popups</button> -->
+
+<div class="container">
+    <div class="btn row">
+        <button (click)="AddDevice()" class="btn btn-primary button float-right "> Add Device</button>
+    </div>
+
+    <div class="name row">
+        <table class="table header table-striped">
+            <thead>
+                <tr>
+                    <th>Sr.No</th>
+                    <th>Name</th>
+                    <th>Details</th>
+                    <th>Purchase Date</th>
+                    <th>Maintainance Details</th>
+                    <th>Price</th>
+
+                </tr>
+            </thead>
+            <tbody class="table-dark nameone">
+                <tr *ngFor="let d of devicedetails index as i">
+                    <td>{{i+1}}</td>
+                    <td>{{d.deviceName}}</td>
+                    <td>{{d.deviceDetails}}</td>
+                    <td>{{d.devicePurchaseDate}}</td>
+                    <td>{{d.maintainanceDetails}}</td>
+                    <th>{{d.price}}</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

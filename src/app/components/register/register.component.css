@@ -10,10 +10,10 @@
 background-color: #EDEDED;
 }
 .regis{
-    width: 100%;
-    margin-top: 17px;
-    margin-bottom: 10px;
-    margin-top: 29px;
+     width: 100%;
+     margin-top: 17px;
+
+    margin-bottom: 0px;
 }
 .content{
     background: linear-gradient(to right top, #22247c, #0063A6, #007EBF, #00A0D7, #009DD5) !important;  
@@ -56,6 +56,8 @@ background-color: #EDEDED;
 .grp_form{
     padding: 10px 30px 40px 30px;
     width: 150%;
+    height: 588px;
+
 }
 
 .heading{
