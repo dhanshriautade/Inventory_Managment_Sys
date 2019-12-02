@@ -1,0 +1,26 @@
+.btn {
+    width: 200px;
+    height: 50px;
+}
+
+.header {
+    background: linear-gradient(87deg, #0063A6, #007EBF, #00A0D7)!important;
+    color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(130, 122, 122, 0.45)
+}
+
+.table-dark {
+    color: black;
+    background-color: #f0eeee;
+    border: 1px solid gray;
+}
+
+.name {
+    height: 600px;
+    padding-top: 20px;
+    overflow: auto;
+    overflow-x: hidden;
+}

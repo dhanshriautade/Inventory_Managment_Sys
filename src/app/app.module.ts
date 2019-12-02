@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule , ReactiveFormsModule  } from '@angular/forms';
-
+import {DialogModule} from 'primeng/dialog';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
@@ -15,7 +15,7 @@ import {MenuItem} from 'primeng/api';
 import { TeamComponent } from './components/team/team.component';
 import { DeviceComponent } from './components/device/device.component';
 import { MaintanceComponent } from './components/maintance/maintance.component';   
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ChartModule} from 'primeng/chart';
 
 
@@ -41,7 +41,9 @@ import {ChartModule} from 'primeng/chart';
     FormsModule,
     AccordionModule,
     ReactiveFormsModule ,
-    ChartModule
+    ChartModule,
+    BrowserAnimationsModule,
+    DialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
