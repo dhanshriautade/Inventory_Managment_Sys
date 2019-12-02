@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .btn {
     width: 200px;
     height: 50px;
@@ -23,4 +24,14 @@
     padding-top: 20px;
     overflow: auto;
     overflow-x: hidden;
+=======
+.tab_style{
+    padding:30px 30px 30px 30px;
+    background-color:white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.th{
+    background-color:#E6E6E6;
+>>>>>>> 60eb98583614681c49ea1bd43edef94b9b383259
 }
