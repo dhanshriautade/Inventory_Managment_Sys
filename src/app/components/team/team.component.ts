@@ -8,9 +8,25 @@ import { Component, OnInit } from '@angular/core';
 export class TeamComponent implements OnInit {
 
   display: boolean = false;
+  useradd: boolean = false;
   data;
+  details;
   constructor() {
-
+   
+  this.details=[{
+    "deviceName" :"Lenovo",
+    "deviceDetails":"Device Name:rani, Memory:7.5GiB, Processor:Intel® Core™ i5-3320M CPU @ 2.60GHz × 4 ,Graphics:Intel® Ivybridge Mobile,OS type:64-bit",
+    "devicePurchaseDate":"12/11/1019",
+    "maintainanceDetails":"Nill"
+  
+  },
+  {
+    "deviceName" :"Lapcare",
+    "deviceDetails":"Model No:LVOADNP1541,Type:AC ADAPTOR, Power:65W,Sr.No.:41046620 ",
+    "devicePurchaseDate":"2/12/2019",
+    "maintainanceDetails":"Nill"
+  
+  }]
     this.data = [
       {
         "firstName": "Dhanshri",
@@ -114,6 +130,10 @@ export class TeamComponent implements OnInit {
 
   showDialog() {
     this.display = true;
+  }
+
+  AddUser(){
+    this.useradd = true;
   }
   ngOnInit() {
   }

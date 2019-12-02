@@ -20,7 +20,11 @@
 
 .name {
     height: 600px;
-    padding-top: 20px;
+     margin-top: 40px; 
     overflow: auto;
     overflow-x: hidden;
+}
+
+.btn{
+    padding-top: 15px
 }
