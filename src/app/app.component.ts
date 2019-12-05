@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+
 
 @Component({
   selector: 'app-root',
@@ -8,8 +10,14 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'ggg';
-  constructor(private router: Router) {
+  
+  
+  
 
+  constructor() { }
+
+  ngOnInit() {
+     
   }
-
+   
 }

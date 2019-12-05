@@ -18,37 +18,72 @@
         <form class="group grp_form" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
           <div>
             <label class="first">First name</label>
-            <input type="text" class="form-control text-centre" formControlName="firstName" placeholder="" name="firstName">
+            <input type="text" class="form-control text-centre nme" formControlName="firstName" placeholder=""
+              name="firstName" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" autocomplete="off">
+            <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+              <div *ngIf="f.firstName.errors.required">First Name is required</div>
+            </div>
+
           </div>
           <div>
             <label class="last">Last name</label>
-            <input type="text" class="form-control text-centre" formControlName="lastName" placeholder="" name="lastName">
+            <input type="text" class="form-control text-centre nme" formControlName="lastName" placeholder=""
+              name="lastName" [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" autocomplete="off">
+            <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+              <div *ngIf="f.lastName.errors.required">Last Name is required</div>
+            </div>
           </div>
           <div>
-              <label class="first">Mobile No</label>
-              <input type="text" class="form-control text-centre" formControlName="firstName" placeholder="" name="mobileNo">
+            <label class="first">Mobile No</label>
+            <input type="text" class="form-control text-centre nme" formControlName="mobileNo"
+              [pattern]="mobNumberPattern" placeholder="" name="mobileNo"
+              [ngClass]="{ 'is-invalid': submitted && f.mobileNo.errors }" autocomplete="off">
+            <div *ngIf="submitted && f.mobileNo.errors" class="invalid-feedback">
+              <div *ngIf="f.mobileNo.errors.required">Mobile number is required</div>
+              <div *ngIf="f.mobileNo.errors.pattern">mobile must be a valid mobile number</div>
+              <div *ngIf="(mobileNo.dirty || mobile.touched) && mobile.invalid && mobile.errors.invalidNumber">
+                Value has to be a number.
+              </div>
             </div>
+          </div>
           <div>
 
-              <div>
-                  <label class="add">Email_Id</label>
-                  <input type="text" class="form-control text-centre" formControlName="emailId" placeholder=""name="emailId">
-                </div>
+            <div>
+              <label class="add">Email_Id</label>
+              <input type="text" class="form-control text-centre nme" formControlName="emailId" placeholder=""
+                name="emailId" [ngClass]="{ 'is-invalid': submitted && f.emailId.errors }" autocomplete="off">
+              <div *ngIf="submitted && f.emailId.errors" class="invalid-feedback">
+                <div *ngIf="f.emailId.errors.required">Email is required</div>
+                <div *ngIf="f.emailId.errors.email">Email must be a valid email address</div>
+              </div>
+            </div>
             <label class="add">Address</label>
-            <input type="text" class="form-control text-centre" formControlName="address" placeholder=""name="address">
+            <input type="text" class="form-control text-centre nme" formControlName="address" placeholder=""
+              name="address" [ngClass]="{ 'is-invalid': submitted && f.address.errors }" autocomplete="off">
+            <div *ngIf="submitted && f.address.errors" class="invalid-feedback">
+              <div *ngIf="f.address.errors.required">Address is required</div>
+            </div>
           </div>
-         
+
           <div>
             <label class="mobno">Skills</label>
-            <input type="text" class="form-control text-centre" formControlName="skills"placeholder="" name="skills">
+            <input type="text" class="form-control text-centre nme" formControlName="skills" placeholder=""
+              name="skills" [ngClass]="{ 'is-invalid': submitted && f.skills.errors }" autocomplete="off">
+            <div *ngIf="submitted && f.address.errors" class="invalid-feedback">
+              <div *ngIf="f.address.errors.required">skills are required</div>
+            </div>
           </div>
           <div>
             <label class="desgn">Designation</label>
-            <input type="text" class="form-control text-centre" formControlName="designation"placeholder="" name="designation">
+            <input type="text" class="form-control text-centre nme" formControlName="designation" placeholder=""
+              name="designation" [ngClass]="{ 'is-invalid': submitted && f.designation.errors }" autocomplete="off">
+            <div *ngIf="submitted && f.designation.errors" class="invalid-feedback">
+              <div *ngIf="f.designation.errors.required">designation are required</div>
+            </div>
           </div>
-         
-          <div class="form group ">
-            <button type="submit" class="btn btn-primary regis ">Register</button>
+
+          <div class="form group  sign ">
+            <button type="submit" (click)="onSubmit() " class="btn btn-primary regis ">Register</button>
           </div>
           <div>
             <a href="">Sign in instead</a>

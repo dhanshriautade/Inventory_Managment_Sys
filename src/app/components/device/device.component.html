@@ -4,7 +4,7 @@
 </p-dialog>
 
 <p-dialog header="Add Device" [(visible)]="useradd" [modal]="true" [responsive]="true"
-    [style]="{width: '350px',  height:' 600px',minWidth: '200px'}" [minY]="70" [maximizable]="true" [baseZIndex]="10000">
+    [style]="{width: '350px',  height:' 400px',minWidth: '200px'}" [minY]="70" [maximizable]="true" [baseZIndex]="10000">
     <div class="col-sm-12 col-lg-12 col-md-12">
 
         <div class="row row_form tab ">
@@ -17,7 +17,9 @@
                     </div>
                     <div>
                         <label class="last">Details</label>
-                        <input type="text " class="form-control text-centre" placeholder="" name="details">
+                        <textarea cols="38" rows="1" style="overflow-x: hidden;;">
+    
+                            </textarea>
                     </div>
                     <div>
                         <label class="add">Purchase Date</label>

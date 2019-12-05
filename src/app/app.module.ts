@@ -43,7 +43,8 @@ import {ChartModule} from 'primeng/chart';
     ReactiveFormsModule ,
     ChartModule,
     BrowserAnimationsModule,
-    DialogModule
+    DialogModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

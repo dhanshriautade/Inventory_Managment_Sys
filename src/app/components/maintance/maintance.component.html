@@ -3,15 +3,49 @@
   
 </p-dialog>
 
-<p-dialog header="Add Employee" [(visible)]="useradd" [modal]="true" [responsive]="true"
-  [style]="{width: '350px', minWidth: '200px'}" [minY]="70" [maximizable]="true" [baseZIndex]="10000">
-  <p>The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding.
-    His beloved son Michael has just come home from the war, but does not intend to become part of his father's
-    business.
-    Through Michael's life the nature of the family business becomes clear. The business of the family is just like the
-    head of the family,
-    kind and benevolent to those who give respect,
-    but given to ruthless violence whenever anything stands against the good of the family.</p>
+<p-dialog header="Add Maintainance" [(visible)]="useradd" [modal]="true" [responsive]="true"
+    [style]="{width: '350px',  height:' 400px',minWidth: '200px'}" [minY]="70" [maximizable]="true" [baseZIndex]="10000">
+    <div class="col-sm-12 col-lg-12 col-md-12">
+
+        <div class="row row_form tab ">
+
+            <div>
+                <form class="group grp_form ">
+                    <div>
+                        <label class="first">Maintainance type</label>
+                        <input type="text" class="form-control text-centre" placeholder="" name="deviceName">
+                    </div>
+                    
+                    <div>
+                        <label class="add">officeName</label>
+                        <input type="text" class="form-control text-centre" placeholder="" name="purchaseDate">
+                    </div>
+                    <div>
+                        <label class="date">Date</label>
+                        <input type="text" class="form-control text-centre" placeholder="" name="">
+                    </div>
+                    <div>
+                      <label class="description">Description</label>
+                      <input type="text" class="form-control text-centre" placeholder="" name="">
+                  </div>
+                  <div>
+                    <label class="amount">Amount</label>
+                    <input type="text" class="form-control text-centre" placeholder="" name="">
+                </div>
+                <div>
+                  <label class="note">Note</label>
+                  <input type="text" class="form-control text-centre" placeholder="" name="deviceName">
+              </div>
+              
+
+                    <div class="form group  ">
+                        <button type="submit" class="btn btn-primary regis ">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
 </p-dialog>
 
 <!-- <button class="btn-primary btn" type="button" (click)="showDialog()" pButton icon="pi pi-info-circle" label="Show"> popups</button> -->

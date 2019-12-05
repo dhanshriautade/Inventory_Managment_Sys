@@ -11,13 +11,17 @@ background-color: #EDEDED;
 }
 .regis{
      width: 100%;
-     margin-top: 17px;
-
+     margin-top: 25px;
     margin-bottom: 0px;
+    height: 30px;
 }
 .content{
     background: linear-gradient(to right top, #22247c, #0063A6, #007EBF, #00A0D7, #009DD5) !important;  
     height: 100vh;
+
+}
+.nme{
+    height: 30px;
 
 }
 .first{
@@ -54,9 +58,9 @@ background-color: #EDEDED;
 }
 
 .grp_form{
-    padding: 10px 30px 40px 30px;
+    padding: 10px 30px 80px 30px;
     width: 150%;
-    height: 588px;
+    height: 590px;
 
 }
 
@@ -71,4 +75,7 @@ background-color: #EDEDED;
    
     font-size: 27px;
     justify-content: center;
+}
+.sign{
+    margin-top: 4px;
 }
