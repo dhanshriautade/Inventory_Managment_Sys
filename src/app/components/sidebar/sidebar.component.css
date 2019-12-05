@@ -3,6 +3,7 @@
 }
 .logo{
     width: 120px;
+    padding-top: 20px;
 }
 .sidebar{
     text-align: center;
@@ -13,7 +14,9 @@
     
 }
 
-
+.sidebar-nav{
+    padding-top: 30px;
+}
 nav{
     margin-top: 21px;
     margin-right: 57px;
